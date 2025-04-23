@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Others
+*.log
+*.db
+*.sqlite
+.env
+
+# Python (se estiver na mesma repo)
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+env/
+venv/
