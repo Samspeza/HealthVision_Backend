@@ -7,5 +7,8 @@ public class AnaliseImagem
     public string Resultado { get; set; }
     public DateTime DataAnalise { get; set; } = DateTime.Now;
     public int PacienteId { get; set; }
-    public Paciente Paciente { get; set; }
+    public Pacient Paciente { get; set; }
+
+    public int MedicalImageId { get; set; }
+    public MedicalImage MedicalImage { get; set; }
 }

@@ -4,4 +4,5 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<Paciente> Pacientes { get; set; }
     public DbSet<AnaliseImagem> Analises { get; set; }
+    public DbSet<MedicalImage> MedicalImages { get; set; }
 }
